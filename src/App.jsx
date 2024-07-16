@@ -5,7 +5,7 @@ import Counter from './components/Counter';
 import Sanny from './assets/sanny.png';
 
 function App() {
-  const [day, hour, minute, second] = useCountdown("jul 6, 2024 00:00:00")
+  const [day, hour, minute, second] = useCountdown("jan 01, 2024 00:00:00")
 
   return (
    <div className="App" style={{backgroundImage: `url(${Sanny})`}}>
